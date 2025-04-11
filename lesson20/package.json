@@ -1,0 +1,22 @@
+{
+  "name": "lesson20",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:v1": "cypress run --env envName=v1",
+    "cy:v2": "cypress run --env envName=v2",
+    "cy:v1:open": "cypress open --env envName=v1",
+    "cy:v2:open": "cypress open --env envName=v2"
+    
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "description": ""
+}
